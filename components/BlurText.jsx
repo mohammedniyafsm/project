@@ -93,7 +93,7 @@ const BlurText = ({
         return (
           <motion.span
             key={index}
-            className="inline-block will-change-[transform,filter,opacity]"
+             className={`inline-block will-change-[transform,filter,opacity] ${className}`}
             initial={fromSnapshot}
             animate={
               hoverToReveal
